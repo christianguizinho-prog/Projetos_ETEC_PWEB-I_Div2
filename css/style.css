@@ -91,3 +91,19 @@ main{
         transform: translateY(0);/*posição original*/
     }
 }
+/*garante que nada transborde*/
+img, iframe{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/*deixa o video responsivo (mantem a proporção de 16:9*/
+.video-wrapper{
+    position: relative;
+    height: 200px;
+    width: auto;
+}
+iframe{
+    position: absolute;
+    align-items: center;
+}
